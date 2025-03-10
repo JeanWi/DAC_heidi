@@ -1,0 +1,42 @@
+
+Gurobi 11.0.3 (win64) logging started Mon Mar 10 18:31:37 2025
+
+Set parameter LogFile to value "userData\20250310183059_Switzerland2030_bl-1\solver_log.txt"
+Set parameter TimeLimit to value 36000
+Set parameter MIPGap to value 0.02
+Set parameter NodefileStart to value 60
+Set parameter LPWarmStart to value 0
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 11+.0 (26100.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-1355U, instruction set [SSE2|AVX|AVX2]
+Thread count: 10 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 499349 rows, 481829 columns and 1191414 nonzeros
+Model fingerprint: 0x823bbb13
+Variable types: 455548 continuous, 26281 integer (17520 binary)
+Coefficient statistics:
+  Matrix range     [2e-05, 2e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 4e+06]
+  RHS range        [4e-01, 1e+03]
+Presolve removed 402989 rows and 438030 columns
+Presolve time: 0.30s
+Presolved: 96360 rows, 43799 columns, 245276 nonzeros
+Variable types: 35038 continuous, 8761 integer (0 binary)
+
+Root relaxation: objective 4.013978e+05, 17576 iterations, 2.01 seconds (3.38 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 401397.765    0 8761          - 401397.765      -     -    3s
+H    0     0                    3783174.0787 401397.765  89.4%     -    6s
+H    0     0                    408600.00654 401397.765  1.76%     -    6s
+
+Explored 1 nodes (17576 simplex iterations) in 7.23 seconds (7.11 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 2: 408600 3.78317e+06 
+
+Optimal solution found (tolerance 2.00e-02)
+Best objective 4.086000065432e+05, best bound 4.013977646188e+05, gap 1.7627%
